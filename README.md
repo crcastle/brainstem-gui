@@ -1,15 +1,11 @@
 ## Install and Run
-*Assuming you already have Ruby >= 1.9.2 installed*
-*(if not, the easiest way to install/upgrade is using [rvm](https://rvm.beginrescueend.com/rvm/install/) )*
+*Requires python, which is installed by default on most unix variants.*
 
-#### Install
 	$ git clone git@github.com:crcastle/brainstem-gui.git
 	$ cd brainstem-gui
-	$ gem install bundler
-	$ bundle install
-
-#### Run
-	$ ruby app.rb
+	$ python -m SimpleHTTPServer 4567
+	
+Now open browser and go to http://localhost:4567
 
 ## About
 **brainstem-gui** is a thick-client GUI that can make encrypted (HTTPS) and
